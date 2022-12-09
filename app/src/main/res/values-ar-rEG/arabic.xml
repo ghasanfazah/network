@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شبكات</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="have_account">هل لديك حساب</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="email">ايميل</string>
+    <string name="number">رقم الهاتف</string>
+    <string name="full_name">الاسم كامل</string>
+    <string name="serviuspervider">مقدم الخدمة</string>
+    <string name="customer">الزبون</string>
+    <string name="star">*******************</string>
+    <string name="i_read_and_accepet">أنا أقرأ وأقبل </string>
+    <string name="home_servies_thems_amp_condition">الخدمات المنزلية</string>
+</resources>

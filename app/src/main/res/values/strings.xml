@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">networks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="have_account">Have Account?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="email">Email</string>
+    <string name="number">number</string>
+    <string name="full_name">Full Name</string>
+    <string name="serviuspervider">Serviuspervider</string>
+    <string name="customer">Customer</string>
+    <string name="star">*******************</string>
+    <string name="i_read_and_accepet">I Read and Accepet</string>
+    <string name="home_servies_thems_amp_condition"><![CDATA[Home Servies Thems & Condition]]></string>
+    <string name="Login">login</string>
+    <string name="Remember_me">Remember</string>
+</resources>
