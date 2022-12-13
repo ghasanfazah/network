@@ -21,9 +21,9 @@ public class VPAdapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         if (position==1){
-            return new Fragment1();
+            return new Fragment();
         }
-        return new Fragment2();
+        return new Fragment();
     }
 
     @Override

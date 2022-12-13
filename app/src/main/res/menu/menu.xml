@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/servius"
+        android:enabled="true"
+        android:icon="@drawable/sre_1"
+        android:title="servius"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/orders"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        android:title="orders"
+        app:showAsAction="always"
+         />
+    <item
+        android:id="@+id/User"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        android:title="User"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/More"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        android:title="More"
+        app:showAsAction="always" />
+</menu>

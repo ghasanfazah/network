@@ -13,6 +13,8 @@
     <string name="star">*******************</string>
     <string name="i_read_and_accepet">I Read and Accepet</string>
     <string name="home_servies_thems_amp_condition"><![CDATA[Home Servies Thems & Condition]]></string>
-    <string name="Login">login</string>
-    <string name="Remember_me">Remember</string>
+    <string name="Login" translatable="false">login</string>
+    <string name="Remember_me" translatable="false">Remember</string>
+
+
 </resources>

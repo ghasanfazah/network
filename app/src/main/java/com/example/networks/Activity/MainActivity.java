@@ -1,4 +1,4 @@
-package com.example.networks;
+package com.example.networks.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 
-        Intent intent=new Intent(getApplicationContext(),SplashActivity.class);
+        Intent intent=new Intent(getApplicationContext(), HomeActivity2.class);
         startActivity(intent);
         finish();
     }

@@ -11,16 +11,16 @@
 
 
         <EditText
-            android:id="@+id/eT_number"
+            android:id="@+id/eT_Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/number"
+            android:hint="@string/email"
             app:layout_constraintTop_toTopOf="parent"
             android:background="@drawable/edit_re"
             android:layout_marginTop="@dimen/_55sdp"
             android:layout_marginHorizontal="@dimen/_20sdp"
-            android:inputType="phone"
+            android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
 
@@ -41,7 +41,7 @@
             android:drawableEnd="@drawable/ic_baseline_visibility_24"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/eT_number"
+            app:layout_constraintTop_toBottomOf="@id/eT_Email"
             />
 
         <CheckBox
@@ -71,7 +71,7 @@
             app:layout_constraintTop_toBottomOf="@+id/eT_Password" />
 
         <Button
-            android:id="@+id/btn_login"
+            android:id="@+id/btn_loging"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Login"
@@ -96,8 +96,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/checkBox" />
 
-        <TextView
-            android:id="@+id/textView4"
+        <Button
+            android:id="@+id/btn_SignIn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_2sdp"

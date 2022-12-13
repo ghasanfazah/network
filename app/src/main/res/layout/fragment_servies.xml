@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ServiesActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.FragmentServiesPrviders">
+
     <EditText
         android:id="@+id/eT_FName"
         android:layout_width="match_parent"
@@ -27,6 +28,7 @@
         android:ems="10"
         android:hint="@string/email"
         android:background="@drawable/edit_re"
+
         android:layout_marginTop="@dimen/_11sdp"
         android:layout_marginHorizontal="@dimen/_20sdp"
         android:inputType="textEmailAddress"
@@ -56,10 +58,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/star"
+        android:hint="*******************"
         android:gravity="center"
         android:background="@drawable/edit_re"
-        android:backgroundTint="#C1C0C0"
         android:layout_marginTop="@dimen/_22sdp"
         android:layout_marginHorizontal="@dimen/_20sdp"
         android:inputType="numberPassword"
@@ -69,7 +70,17 @@
         app:layout_constraintTop_toBottomOf="@id/eT_number"
         />
 
-
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:padding="@dimen/_17sdp"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:background="@drawable/edit_re"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT_Password" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -80,10 +91,10 @@
         android:layout_marginStart="@dimen/_22sdp"
         android:layout_marginTop="@dimen/_22sdp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eT_Password" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_Home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_23sdp"
@@ -92,10 +103,10 @@
         android:text="@string/home_servies_thems_amp_condition"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@id/eT_Password" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button_signIN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
@@ -104,14 +115,13 @@
         android:background="@drawable/btn"
         android:textColor="@color/white"
         android:textStyle="bold"
-
         android:layout_marginTop="@dimen/_22sdp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/tv_Have"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Home" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv_Have"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_22sdp"
@@ -121,8 +131,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/checkBox" />
 
-    <TextView
-        android:id="@+id/textView4"
+    <Button
+        android:id="@+id/btn_Res_SignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_2sdp"
@@ -133,5 +143,7 @@
         android:textStyle="bold"
         android:layout_marginStart="@dimen/_27sdp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView3" />
+        app:layout_constraintTop_toBottomOf="@id/tv_Have" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

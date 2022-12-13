@@ -7,10 +7,10 @@ import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.example.networks.CustomerREGFragment;
-import com.example.networks.SerFRGFragment;
+import java.util.AbstractList;
 
 public class Adapter extends FragmentStateAdapter {
+    AbstractList<Fragment> fragments;
 
 
     public Adapter(FragmentManager manager, Lifecycle lifecycle) {
@@ -25,9 +25,9 @@ public class Adapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         if (position==1){
-            return new CustomerREGFragment();
+            return new FragmentCustomer2();
         }
-        return new SerFRGFragment();
+        return new FragmentServiesPrviders();
     }
 
     @Override
